@@ -34,7 +34,7 @@ function getUserAndOppTypes() {
 }
 function getRandomType() {
     //Pick random number between 0-17
-    let random = Math.floor(Math.random() * 18);
+    let random = Math.floor(Math.random() * types.length);
     //Use random number to return a random type from types array
     return types[random];
 }
@@ -72,7 +72,7 @@ function fourRandomTypes() {
     let numArr = [];
     userTypes = [];
     while(numArr.length < 4) {
-        let r = Math.floor(Math.random() * 18);
+        let r = Math.floor(Math.random() * types.length);
         if (numArr.indexOf(r) === -1) { 
             numArr.push(r);
             userTypes.push(types[r]);

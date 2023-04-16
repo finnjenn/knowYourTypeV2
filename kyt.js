@@ -1,5 +1,7 @@
 let userTypes = [];
 let oppTypes = [];
+const MAX_USER_TYPES = 4;
+const MAX_OPP_TYPES = 2;
 
 function toggleChart() {
     let chart = document.getElementById("chart");
@@ -16,7 +18,7 @@ function checkCtrl() {
         //If random is already checked and you've just checked some other box, uncheck random (to prevent users from checking random along with a type)
         if (userBoxes[0].checked && totalBoxesChecked > 1) userBoxes[0].checked = false;
         //Unchecks anything once 4 have already been checked 
-        if (totalBoxesChecked > 4) userBoxes[i].checked = false;
+        if (totalBoxesChecked > MAX_USER_TYPES) userBoxes[i].checked = false;
     }
     //Forces default behavior of random being checked when nothing else is checked 
     if (totalBoxesChecked === 0) {
@@ -37,7 +39,7 @@ function checkCtrlOpp() {
         //If Mono is already checked and you've just checked some other box, uncheck Mono (to prevent users from checking Mono along with a type)
         if (oppBoxes[1].checked && total > 1) oppBoxes[1].checked = false;
         //Unchecks anything once 2 have already been checked 
-        if (total > 2) oppBoxes[i].checked = false;
+        if (total > MAX_OPP_TYPES) oppBoxes[i].checked = false;
     }
     //Forces default behavior of Dual being checked when nothing else is checked
     if (total === 0) {
@@ -71,6 +73,4 @@ function storeBoth() {
     storeOppData();
     window.location.href = 'battle.html';
 }
-let reader = new FileReader();
-// let buff = new ArrayBuffer('types.txt');
-// reader.readAsArrayBuffer(buff);
+
