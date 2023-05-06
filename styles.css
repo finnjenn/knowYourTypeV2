@@ -12,17 +12,17 @@ html {
     text-align: center;
 }
 #index a img {
-    opacity: 75%;
     border: 2px solid #fddb53;
     border-radius: 10px;
     padding: 10px 20px;
     margin-top: 30px;
 }
 #index a img:hover {
-    opacity: 100%;
+    opacity: 75%;
 }
 header {
     text-align: center;
+    margin-top: 2rem;
 }
 main {
     margin: 0 auto;
@@ -149,7 +149,7 @@ label:hover {
 }
 @media (width <= 735px) {
     header img {
-        width: 30rem;
+        width: 25rem;
     }
     main {
         width: 90%;
