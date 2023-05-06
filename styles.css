@@ -210,7 +210,7 @@ label:hover {
 .Mono {
     background: linear-gradient(7deg, rgba(255,2,2,1) 0%, rgba(13,18,15,1) 100%);
 }
-@media (width <= 735px) {
+@media (max-width: 735px) {
     header img {
         width: 25rem;
     }
