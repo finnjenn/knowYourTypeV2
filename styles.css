@@ -1,3 +1,27 @@
+@media (width <= 735px) {
+    header img {
+        width: 25rem;
+    }
+    main {
+        width: 90%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    label {
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+    #home {
+        position: relative;
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    #next {
+        position: relative;
+    }
+}
 html {
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -146,30 +170,6 @@ label:hover {
 #moveBox button:active{
     opacity: 80%;
     transform: translateY(-2px);
-}
-@media (width <= 735px) {
-    header img {
-        width: 25rem;
-    }
-    main {
-        width: 90%;
-    }
-    h1 {
-        font-size: 200%;
-    }
-    label {
-        font-size: 1.2rem;
-        padding: 0.5rem;
-    }
-    #home {
-        position: relative;
-        display: inline-block;
-        margin-top: 20px;
-        margin-right: 20px;
-    }
-    #next {
-        position: relative;
-    }
 }
 .Normal {
     background-color: #A8A878;
