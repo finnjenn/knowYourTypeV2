@@ -1,108 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/pokemon-solid"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/favicon1.png" />
     <script defer src="kyt.js"></script>
     <title>Know Your Type</title>
-</head>
-<body>
-    <header><a href="index.html"><img src="images/knowyourtype.png" alt="Know Your Type header logo in Pokemon font"></a></header>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img
+          src="images/knowyourtype.png"
+          alt="Know Your Type header logo in Pokemon font"
+      /></a>
+    </header>
 
     <main>
-        <h1>User Type <span>(choose up to 4)</span></h1>
-        <section id="userTypeSelect">
-            <div class="typeFlex">
-                <label class="Random"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Random" checked> Any Randomly Selected Type</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Normal"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Normal"> Normal</label>
-                <label class="Fire"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Fire"> Fire</label>
-                <label class="Water"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Water"> Water</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Grass"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Grass"> Grass</label>
-                <label class="Electric"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Electric"> Electric</label>
-                <label class="Ice"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Ice"> Ice</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Fighting"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Fighting"> Fighting</label>
-                <label class="Poison"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Poison"> Poison</label>
-                <label class="Ground"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Ground"> Ground</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Flying"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Flying"> Flying</label>
-                <label class="Psychic"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Psychic"> Psychic</label>
-                <label class="Bug"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Bug"> Bug</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Rock"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Rock"> Rock</label>
-                <label class="Ghost"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Ghost"> Ghost</label>
-                <label class="Dragon"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Dragon"> Dragon</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Dark"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Dark"> Dark</label>
-                <label class="Steel"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Steel"> Steel</label>
-                <label class="Fairy"> <input onclick="checkCtrl()" name="typeCheckBox" type="checkbox" value="Fairy"> Fairy</label>
-            </div>
-        </section>
+      <h1>User Type <span>(choose up to 4)</span></h1>
+      <section id="userTypeSelect">
+        <div class="typeFlex">
+          <label class="Random">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Random"
+              checked
+            />
+            Any Randomly Selected Type</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Normal">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Normal"
+            />
+            Normal</label
+          >
+          <label class="Fire">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Fire"
+            />
+            Fire</label
+          >
+          <label class="Water">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Water"
+            />
+            Water</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Grass">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Grass"
+            />
+            Grass</label
+          >
+          <label class="Electric">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Electric"
+            />
+            Electric</label
+          >
+          <label class="Ice">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Ice"
+            />
+            Ice</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Fighting">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Fighting"
+            />
+            Fighting</label
+          >
+          <label class="Poison">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Poison"
+            />
+            Poison</label
+          >
+          <label class="Ground">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Ground"
+            />
+            Ground</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Flying">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Flying"
+            />
+            Flying</label
+          >
+          <label class="Psychic">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Psychic"
+            />
+            Psychic</label
+          >
+          <label class="Bug">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Bug"
+            />
+            Bug</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Rock">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Rock"
+            />
+            Rock</label
+          >
+          <label class="Ghost">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Ghost"
+            />
+            Ghost</label
+          >
+          <label class="Dragon">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Dragon"
+            />
+            Dragon</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Dark">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Dark"
+            />
+            Dark</label
+          >
+          <label class="Steel">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Steel"
+            />
+            Steel</label
+          >
+          <label class="Fairy">
+            <input
+              onclick="checkCtrl()"
+              name="typeCheckBox"
+              type="checkbox"
+              value="Fairy"
+            />
+            Fairy</label
+          >
+        </div>
+      </section>
 
-        <h1>Opponent Type</h1>
-        <section id="oppTypeSelect">
-            <div class="typeFlex">
-                <label class="Dual"> <input onclick="checkCtrlOpp()" name="oppType" type="radio" value="Dual" checked> Dual-type Random</label>
-                <label class="Mono"> <input onclick="checkCtrlOpp()" name="oppType" type="radio" value="Mono"> Mono-type Random</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Normal"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Normal"> Normal</label>
-                <label class="Fire"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Fire"> Fire</label>
-                <label class="Water"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Water"> Water</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Grass"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Grass"> Grass</label>
-                <label class="Electric"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Electric"> Electric</label>
-                <label class="Ice"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Ice"> Ice</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Fighting"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Fighting"> Fighting</label>
-                <label class="Poison"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Poison"> Poison</label>
-                <label class="Ground"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Ground"> Ground</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Flying"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Flying"> Flying</label>
-                <label class="Psychic"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Psychic"> Psychic</label>
-                <label class="Bug"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Bug"> Bug</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Rock"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Rock"> Rock</label>
-                <label class="Ghost"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Ghost"> Ghost</label>
-                <label class="Dragon"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Dragon"> Dragon</label>
-            </div>
-            <div class="typeFlex">
-                <label class="Dark"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Dark"> Dark</label>
-                <label class="Steel"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Steel"> Steel</label>
-                <label class="Fairy"> <input onclick="checkCtrlOpp()" name="oppType" type="checkbox" value="Fairy"> Fairy</label>
-            </div>
-        </section>
-        <button id="fight" onclick="storeBoth()"><img src="images/fight.png" alt="Fight button with Pokemon font"></button>
+      <h1>Opponent Type</h1>
+      <section id="oppTypeSelect">
+        <div class="typeFlex">
+          <label class="Dual">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="radio"
+              value="Dual"
+              checked
+            />
+            Dual-type Random</label
+          >
+          <label class="Mono">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="radio"
+              value="Mono"
+            />
+            Mono-type Random</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Normal">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Normal"
+            />
+            Normal</label
+          >
+          <label class="Fire">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Fire"
+            />
+            Fire</label
+          >
+          <label class="Water">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Water"
+            />
+            Water</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Grass">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Grass"
+            />
+            Grass</label
+          >
+          <label class="Electric">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Electric"
+            />
+            Electric</label
+          >
+          <label class="Ice">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Ice"
+            />
+            Ice</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Fighting">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Fighting"
+            />
+            Fighting</label
+          >
+          <label class="Poison">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Poison"
+            />
+            Poison</label
+          >
+          <label class="Ground">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Ground"
+            />
+            Ground</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Flying">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Flying"
+            />
+            Flying</label
+          >
+          <label class="Psychic">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Psychic"
+            />
+            Psychic</label
+          >
+          <label class="Bug">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Bug"
+            />
+            Bug</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Rock">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Rock"
+            />
+            Rock</label
+          >
+          <label class="Ghost">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Ghost"
+            />
+            Ghost</label
+          >
+          <label class="Dragon">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Dragon"
+            />
+            Dragon</label
+          >
+        </div>
+        <div class="typeFlex">
+          <label class="Dark">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Dark"
+            />
+            Dark</label
+          >
+          <label class="Steel">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Steel"
+            />
+            Steel</label
+          >
+          <label class="Fairy">
+            <input
+              onclick="checkCtrlOpp()"
+              name="oppType"
+              type="checkbox"
+              value="Fairy"
+            />
+            Fairy</label
+          >
+        </div>
+      </section>
+      <button id="fight" onclick="storeBoth()">
+        <img src="images/fight.png" alt="Fight button with Pokemon font" />
+      </button>
     </main>
-    <button class="btn" id="chartButton" data-bs-toggle="modal" data-bs-target="#chartModal">Chart</button>
-    <div class="modal fade" id="chartModal" tabindex="-1" aria-labelledby="chartModal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-lg">
-          <div class="modal-content">
-            <div class="modal-body">
-              <img src="images/chart3.webp" alt="Pokemon Type Chart" id="chart">
-              <button type="button" class="btn" data-bs-dismiss="modal" id="chartButton">Close</button>
-            </div>
+    <button
+      class="btn"
+      id="chartButton"
+      data-bs-toggle="modal"
+      data-bs-target="#chartModal"
+    >
+      Chart
+    </button>
+    <div
+      class="modal fade"
+      id="chartModal"
+      tabindex="-1"
+      aria-labelledby="chartModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="images/chart3.webp" alt="Pokemon Type Chart" id="chart" />
+            <button
+              type="button"
+              class="btn"
+              data-bs-dismiss="modal"
+              id="chartButton"
+            >
+              Close
+            </button>
           </div>
         </div>
       </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-</body>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
