@@ -17,3 +17,6 @@ Could you imagine trying to cram all of this in your head? My application is her
   <li>Easy-to-use UI
   <li>Quickly test your knowledge of type-matchups
   <li>Easily reset and change application settings 
+</ul>
+
+<h2>Technolgies Used</h2>
