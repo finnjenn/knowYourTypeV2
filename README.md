@@ -2,7 +2,7 @@
 
 A simple way to learn Pokemon type-matchups.
 
-# # Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
