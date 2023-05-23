@@ -4,10 +4,10 @@ A simple way to learn Pokemon type-matchups.
 
 <h2>Table of Contents</h2>
 <ul>
-  <li> Introduction
+  <li> <a href="#introduction">Introduction</a>
 </ul>
 
-<h2>Introduction</h2>(#Introduction)
+<h2>Introduction</h2>(#introduction)
 
 Did you know there are currently 18 different Pokemon types?
 
