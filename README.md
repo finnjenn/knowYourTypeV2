@@ -13,3 +13,7 @@ Most people know that Water beats Fire. It's intuitive and makes sense. But not 
 Could you imagine trying to cram all of this in your head? My application is here to assist you.
 
 <h2>Features</h2>
+<ul>
+  <li>Easy-to-use UI
+  <li>Quickly test your knowledge of type-matchups
+  <li>Easily reset and change application settings 
