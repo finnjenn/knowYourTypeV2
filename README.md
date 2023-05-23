@@ -40,3 +40,12 @@ Click Home to return to the setting selection screen.
 Click Next to move on to a new Pokemon.
 
 The Chart button in the upper right corner initiates a modal with an image that can help guide your decisions. Feel free to study it or use it to check your answers while practicing.
+
+<h2>Contributing</h2>
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+<li>Fork the repository.
+<li>Create a new branch for your feature or bug fix.
+<li>Make your changes and commit them.
+<li>Push your changes to your forked repository.
+<li>Submit a pull request detailing your changes.
