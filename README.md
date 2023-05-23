@@ -45,8 +45,8 @@ Could you imagine trying to cram all of this in your head? My application is her
 During the development of this project, I gained several key insights and learned the following:
 
 - Local Storage: A wonderful tool for temporarily storing data in memory in the user's browser. This feature allowed me to pass data from user checkboxes on one page to the next without having to use a database or any other backend coding.
-- Responsive Design: I wanted users to be able to practice and play whenever they want one whatever device suits them best. I learned a lot about design a page that easily responds to screen-size changes by taking advantage of flexbox and media queries.
-- Bootstrap Modal: I used Boostrap's modal class to help hide/show the type chart so that it is easily accessible to users whenever they need it.
+- Responsive Design: I wanted users to be able to practice and play whenever they want on whatever device suits them best. I learned a lot about designing a page that easily responds to screen-size changes by taking advantage of flexbox and media queries.
+- Bootstrap Modal: I used Boostrap's modal class to hide/show the type chart so that it is easily accessible to users whenever they need it.
 - DOM manipulation: This project heavily required DOM manipulation which I had to learn on the fly. Everything from checkbox group control to dynamically changing the damage response based upon user move selection.
 - Template Literals: This was the first time I used string literals instead of regular quoted strings. This type of string is extremely flexible and easy to learn. It helped me to use numbers to match my images with specific type combinations and to update the damage output response.
 - Improvements: The UI/UX of this project could be greatly improved. I think the layout could use updating and I could make it more clear what the user is supposed to get out of using this site.
@@ -63,7 +63,7 @@ Click Fight to start practicing.
 Click Home to return to the setting selection screen.
 Click Next to move on to a new Pokemon.
 
-The Chart button in the upper right corner initiates a modal with an image that can help guide your decisions. Feel free to study it or use it to check your answers while practicing.
+The Chart button in the upper right corner triggers a modal with an image that can help guide your decisions. Feel free to study it or use it to check your answers while practicing.
 
 <h2 id="contributing">Contributing</h2>
 
