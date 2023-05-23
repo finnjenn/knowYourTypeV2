@@ -4,15 +4,15 @@ A simple way to learn Pokemon type-matchups.
 
 # # Table of Contents
 
-- [Introduction](#Introduction)
-- [Features](#Features)
-- [Technologies Used](#TechnologiesUsed)
-- [What I Learned](#WhatILearned)
-- [Usage](#Usage)
-- [Contributing](#Contributing)
-- [Contact Me](#ContactMe)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologiesUsed)
+- [What I Learned](#whatILearned)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Contact Me](#contactMe)
 
-## Introduction {#Introduction}
+## Introduction {#introduction}
 
 Did you know there are currently 18 different Pokemon types?
 
@@ -22,7 +22,7 @@ Most people know that Water beats Fire. It's intuitive and makes sense. But not 
 
 Could you imagine trying to cram all of this in your head? My application is here to assist you.
 
-## Features {#Features}
+## Features {#features}
 
 <ul>
   <li>Easy-to-use UI
@@ -31,7 +31,7 @@ Could you imagine trying to cram all of this in your head? My application is her
   <li>Easily reset and change application settings 
 </ul>
 
-## Technologies Used {#TechnologiesUsed}
+## Technologies Used {#technologiesUsed}
 
 <ul>
   <li>HTML
@@ -40,13 +40,13 @@ Could you imagine trying to cram all of this in your head? My application is her
   <li>Bootstrap
 </ul>
 
-## What I Learned {#WhatILearned}
+## What I Learned {#whatILearned}
 
 During the development of this project, I gained several key insights and learned the following:
 
 - Local Storage:
 
-## Usage {#Usage}
+## Usage {#usage}
 
 Simply clone the project and open using the index.html file or open the live site with <a href="https://finnjenn.github.io/knowYourTypeV2/">Github Pages</a>
 
@@ -60,7 +60,7 @@ Click Next to move on to a new Pokemon.
 
 The Chart button in the upper right corner initiates a modal with an image that can help guide your decisions. Feel free to study it or use it to check your answers while practicing.
 
-## Contributing {#Contributing}
+## Contributing {#contributing}
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
@@ -70,7 +70,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - Push your changes to your forked repository.
 - Submit a pull request detailing your changes.
 
-## Contact Me {#ContactMe}
+## Contact Me {#contactMe}
 
 For any questions, suggestions, or feedback, please feel free to contact me:
 
