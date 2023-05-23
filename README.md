@@ -44,8 +44,10 @@ The Chart button in the upper right corner initiates a modal with an image that 
 <h2>Contributing</h2>
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-<li>Fork the repository.
-<li>Create a new branch for your feature or bug fix.
-<li>Make your changes and commit them.
-<li>Push your changes to your forked repository.
-<li>Submit a pull request detailing your changes.
+<ul>  
+  <li>Fork the repository.
+  <li>Create a new branch for your feature or bug fix.
+  <li>Make your changes and commit them.
+  <li>Push your changes to your forked repository.
+  <li>Submit a pull request detailing your changes.
+</ul>
