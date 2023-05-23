@@ -25,7 +25,14 @@ Could you imagine trying to cram all of this in your head? My application is her
   <li>HTML
   <li>CSS
   <li>Javscript
+  <li>Bootstrap
 </ul>
 
 <h2>Usage</h2>
 Simply clone the project and open using the index.html file or open the live site with <a href="https://finnjenn.github.io/knowYourTypeV2/">Github Pages</a>
+
+Click the Get Started button and choose your settings ( it is recommended to leave the default settings to start )
+
+You can either leave the settings default to practice against/use a wide range of pokemon types or you can use the checkboxes to select specific types you would like to practice against/use.
+
+Click the Fight button to start practicing
