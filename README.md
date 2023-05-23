@@ -54,6 +54,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 <h2>Contact Me</h2>
 For any questions, suggestions, or feedback, please feel free to contact me:
+
 <ul>
   <li> Github: <a href="https://github.com/finnjenn">finnjenn</a>
   <li> Email: <a href="mailto:finnjennings00@gmail.com">finnjennings00@gmail.com</a>
