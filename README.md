@@ -5,6 +5,11 @@ A simple way to learn Pokemon type-matchups.
 <h2>Table of Contents</h2>
 <ul>
   <li> <a href="#introduction">Introduction</a>
+  <li> <a href="#features">Features</a>
+  <li> <a href="#technologies">Technologies Used</a>
+  <li> <a href="#usage">Usage</a>
+  <li> <a href="#contributing">Contributing</a>
+  <li> <a href="#contact">Contact Me</a>
 </ul>
 
 <h2>Introduction</h2>(#introduction)
@@ -17,7 +22,7 @@ Most people know that Water beats Fire. It's intuitive and makes sense. But not 
 
 Could you imagine trying to cram all of this in your head? My application is here to assist you.
 
-<h2>Features</h2>
+<h2>Features</h2>(#features)
 <ul>
   <li>Easy-to-use UI
   <li>Responsive design for on-the-go practice
@@ -25,7 +30,7 @@ Could you imagine trying to cram all of this in your head? My application is her
   <li>Easily reset and change application settings 
 </ul>
 
-<h2>Technolgies Used</h2>
+<h2>Technolgies Used</h2>(#technologies)
 <ul>
   <li>HTML
   <li>CSS
@@ -33,7 +38,7 @@ Could you imagine trying to cram all of this in your head? My application is her
   <li>Bootstrap
 </ul>
 
-<h2>Usage</h2>
+<h2>Usage</h2>(#usage)
 Simply clone the project and open using the index.html file or open the live site with <a href="https://finnjenn.github.io/knowYourTypeV2/">Github Pages</a>
 
 Click the Get Started button and choose your settings ( it is recommended to leave the default settings to start )
@@ -46,7 +51,7 @@ Click Next to move on to a new Pokemon.
 
 The Chart button in the upper right corner initiates a modal with an image that can help guide your decisions. Feel free to study it or use it to check your answers while practicing.
 
-<h2>Contributing</h2>
+<h2>Contributing</h2>(#contributing)
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
 <ul>  
@@ -57,7 +62,7 @@ Contributions are welcome! If you'd like to contribute to this project, please f
   <li>Submit a pull request detailing your changes.
 </ul>
 
-<h2>Contact Me</h2>
+<h2>Contact Me</h2>(#contact)
 For any questions, suggestions, or feedback, please feel free to contact me:
 
 <ul>
