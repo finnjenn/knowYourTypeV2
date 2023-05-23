@@ -35,4 +35,8 @@ Click the Get Started button and choose your settings ( it is recommended to lea
 
 You can either leave the settings default to practice against/use a wide range of pokemon types or you can use the checkboxes to select specific types you would like to practice against/use.
 
-Click the Fight button to start practicing
+Click Fight to start practicing.
+Click Home to return to the setting selection screen.
+Click Next to move on to a new Pokemon.
+
+The Chart button in the upper right corner initiates a modal with an image that can help guide your decisions. Feel free to study it or use it to check your answers while practicing.
