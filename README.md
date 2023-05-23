@@ -11,3 +11,5 @@ Most people know that Water beats Fire. It's intuitive and makes sense. But not 
 ![image](https://github.com/finnjenn/knowYourTypeV2/assets/85904957/82ee2500-57bd-42e6-ac93-1d0e40b6b1b3)
 
 Could you imagine trying to cram all of this in your head? My application is here to assist you.
+
+<h2>Features</h2>
