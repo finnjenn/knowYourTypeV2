@@ -2,7 +2,7 @@
 
 A simple way to learn Pokemon type-matchups.
 
-# Introduction<h2>Introduction</h2>
+<h2>Introduction</h2>
 
 Did you know there are currently 18 different Pokemon types?
 
