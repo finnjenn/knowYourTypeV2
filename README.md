@@ -15,6 +15,7 @@ Could you imagine trying to cram all of this in your head? My application is her
 <h2>Features</h2>
 <ul>
   <li>Easy-to-use UI
+  <li>Responsive design for on-the-go practice
   <li>Quickly test your knowledge of type-matchups
   <li>Easily reset and change application settings 
 </ul>
