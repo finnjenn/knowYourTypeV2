@@ -25,5 +25,7 @@ Could you imagine trying to cram all of this in your head? My application is her
   <li>HTML
   <li>CSS
   <li>Javscript
-  <li>localStorage>
 </ul>
+
+<h2>Usage</h2>
+Simply clone the project and open using the index.html file or open the live site with <a href="https://finnjenn.github.io/knowYourTypeV2/">Github Pages</a>
