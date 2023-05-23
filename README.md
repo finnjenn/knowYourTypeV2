@@ -21,3 +21,9 @@ Could you imagine trying to cram all of this in your head? My application is her
 </ul>
 
 <h2>Technolgies Used</h2>
+<ul>
+  <li>HTML
+  <li>CSS
+  <li>Javscript
+  <li>localStorage>
+</ul>
