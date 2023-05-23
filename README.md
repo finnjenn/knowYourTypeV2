@@ -6,10 +6,10 @@ A simple way to learn Pokemon type-matchups.
 <ul>
   <li> <a href="#introduction">Introduction</a>
   <li> <a href="#features">Features</a>
-  <li> <a href="#technologies">Technologies Used</a>
+  <li> <a href="#technologies">Technologies</a>
   <li> <a href="#usage">Usage</a>
   <li> <a href="#contributing">Contributing</a>
-  <li> <a href="#contact">Contact Me</a>
+  <li> <a href="#contact">Contact</a>
 </ul>
 
 <h2>Introduction</h2>(#introduction)
