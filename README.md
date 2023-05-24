@@ -26,7 +26,7 @@ Could you imagine trying to cram all of this in your head? My application is her
 
 <ul>
   <li>Easy-to-use UI
-  <li>Responsive design for on-the-go practice
+  <li>Responsive design for on-the-go practice no matter what screen size
   <li>Quickly test your knowledge of type-matchups
   <li>Easily reset and change application settings 
 </ul>
@@ -44,10 +44,10 @@ Could you imagine trying to cram all of this in your head? My application is her
 
 During the development of this project, I gained several key insights and learned the following:
 
-- Local Storage: A wonderful tool for temporarily storing data in memory in the user's browser. This feature allowed me to pass data from user checkboxes on one page to the next without having to use a database or any other backend coding.
+- Local Storage: A wonderful tool for temporarily storing data in memory in the user's browser. This feature allowed me to pass data about which check boxes were selected on one page to another without having to use a database or any other backend coding.
 - Responsive Design: I wanted users to be able to practice and play whenever they want on whatever device suits them best. I learned a lot about designing a page that easily responds to screen-size changes by taking advantage of flexbox and media queries.
-- Bootstrap Modal: I used Boostrap's modal class to hide/show the type chart so that it is easily accessible to users whenever they need it.
-- DOM manipulation: This project heavily required DOM manipulation which I had to learn on the fly. Everything from checkbox group control to dynamically changing the damage response based upon user move selection.
+- Bootstrap Modal: I used Boostrap's modal class to hide/show the type chart so that it is easily accessible to users whenever they need it. I like how Bootstrap provides useful tools like modal but allows you to customize them to fit the theme of your page.
+- DOM manipulation: This project heavily required DOM manipulation which I had to learn on the fly. Everything from checkbox group control to dynamically changing the damage response based upon user move selection was handled via manipulation of DOM elements.
 - Template Literals: This was the first time I used string literals instead of regular quoted strings. This type of string is extremely flexible and easy to learn. It helped me to use numbers to match my images with specific type combinations and to update the damage output response.
 - Improvements: The UI/UX of this project could be greatly improved. I think the layout could use updating and I could make it more clear what the user is supposed to get out of using this site.
 
